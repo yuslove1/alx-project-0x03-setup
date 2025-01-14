@@ -31,25 +31,25 @@ Open http://localhost:3000 with your browser to see the result.
 ## Project Structure
 
 alx-project-0x03-setup/
-├── components/          # Reusable React components
-│   ├── common/         # Common components (e.g., Button, Card)
+├── components/          *Reusable React components*
+│   ├── common/         *Common components (e.g., Button, Card)*
 │   │   └── ...
-│   └── layout/         # Layout components (e.g., Header, Footer)
+│   └── layout/         *Layout components (e.g., Header, Footer)*
 │       └── ...
-├── interfaces/          # TypeScript interfaces for type safety
+├── interfaces/          *TypeScript interfaces for type safety*
 │   └── index.ts       
-├── pages/              # Next.js pages and routes
-│   ├── _app.tsx        # Custom App component
-│   ├── index.tsx       # Home page
-│   ├── 404.tsx        # Custom 404 page
-│   └── ...            # Other pages (e.g., /users, /posts)
-├── styles/             # Global stylesheets
+├── pages/              *Next.js pages and routes*
+│   ├── _app.tsx        *Custom App component*
+│   ├── index.tsx       *Home page*
+│   ├── 404.tsx        *Custom 404 page*
+│   └── ...            *Other pages (e.g., /users, /posts)*
+├── styles/             *Global stylesheets*
 │   └── globals.css
-├── public/              # Public assets
+├── public/              *Public assets*
 │   └── ...
 ├── package.json
-├── next.config.js      # Next.js configuration
-└── ...                 # Other project files
+├── next.config.js      *Next.js configuration*
+└── ...                 *Other project files*
 
 
 ## Technologies Used
