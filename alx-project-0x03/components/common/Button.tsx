@@ -1,10 +1,4 @@
-// Define the properties that the Button component accepts
-interface ButtonProps {
-  buttonLabel: string; //the text to be displayed on the button
-  buttonSize?: string; //optional size of the button.
-  buttonBackgroundColor?: "red" | "blue" | "orange" | "green"; //optional background color of the button
-  action?: () => void; //// Optional function to be executed when the button is clicked
-}
+import { ButtonProps } from "@/interface";
 
 // Dynamically determine the background color class based on the buttonBackgroundColor prop
 // If buttonBackgroundColor is provided, it uses a lookup table to get the corresponding Tailwind CSS class.
